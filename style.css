@@ -37,7 +37,7 @@ body * {
 #container {
     width: 100%;
     max-width: 588px;
-    margin: 56px auto 0px;
+    margin: 56px auto 0;
     padding: 0 24px;
 }
 
@@ -51,6 +51,12 @@ body * {
 }
 
 #profile p {
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+#profile span {
     font-weight: 500;
     line-height: 24px;
     margin-top: 8px;
@@ -117,7 +123,8 @@ ul li a {
     -webkit-backdrop-filter: blur(4px);
     text-decoration: none;
     font-weight: 500;
-    transition: background 0.2s
+    transition: background 0.2s;
+    text-align: center;
 }
 
 /* pseudo selector */
