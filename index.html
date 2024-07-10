@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="">
+<html lang="en-us" class="">
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -7,15 +7,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css"
+    />
     <title>Meus Links</title>
 </head>
 <body>
     <div id="container">
         <div id="profile">
             <img src="assets/avatar.png" alt="Foto de Rapha sorrindo, usando óculos e trajes de formatura, em um fundo roxo."/>
-            <p>@slrapha</p>
+            <p>Rapha ツ<br>@slrapha</p>
             <br>
-            <span id="aboutMe">Professor de Inglês | <br> Acadêmico de Sistemas de Informação na Unimontes.</span>
+            <span id="aboutMe">Professor de Inglês e Acadêmico de Sistemas de Informação na Unimontes.</span>
         </div>
         <div id="switch" onclick="toggleMode()">
             <button></button>
@@ -26,35 +30,30 @@
                 <a id="link1" class="link" href="#" target="_blank">Aulas Particulares de Inglês</a>
             </li>
             <li>
-                <a id="link2" class="link" href="#" target="_blank">Prévia dos materiais utilizados no meu curso</a>
+                <a id="link2" class="link" href="#" target="_blank">Meu Portifólio Dev</a>
             </li>
             <li>
-                <a id="link3" class="link" href="https://open.spotify.com/playlist/7F5QrlEN9WoRma6D3GKgNh?si=56bf5912e8384b89" target="_blank">Minha Playlist no Spotify</a>
-            </li>
-            <li>
-                <a id="link4" class="link" href="https://wa.me/5538992718351?text=Hello!%20Me%20chamo%20(seu%20nome)%20e%20(...)/" target="_blank">Contato (WhatsApp)</a>
+                <a id="link4" class="link" href="https://wa.me/5538992718351?text=Hello!%20Me%20chamo%20(seu%20nome)%20e%20(...)" target="_blank">Contato (WhatsApp)</a>
             </li>
         </ul>
         <div id="social-links">
             <a href="https://instagram.com/slrapha/" target="_blank">
-                <ion-icon name="logo-instagram"></ion-icon>
+                <i class="iconoir-instagram"></i>
             </a>
             <a href="https://x.com/slrapha/" target="_blank">
-                <ion-icon name="logo-twitter"></ion-icon>
+                <i class="iconoir-x"></i>
             </a>
             <a href="https://github.com/slraphadev/" target="_blank">
-                <ion-icon name="logo-github"></ion-icon>
+                <i class="iconoir-github"></i>
             </a>
             <a href="https://linkedin.com/in/slrapha/" target="_blank">
-                <ion-icon name="logo-linkedin"></ion-icon>
+                <i class="iconoir-linkedin"></i>
             </a>
         </div>
         <footer id="footer">
             Feito com &#x1F49C por <a href="https://github.com/slraphadev/">Rapha ツ</a>
         </footer>
     </div>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="toggleMode.js"></script>
 </body>
 </html>
